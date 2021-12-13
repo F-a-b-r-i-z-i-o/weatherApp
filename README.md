@@ -10,4 +10,5 @@ represents the home with the various cities of which it is possible to see the f
 in that a map is displayed.
 
 **The third:**
+
 instead allows you to view some users who use the app.
