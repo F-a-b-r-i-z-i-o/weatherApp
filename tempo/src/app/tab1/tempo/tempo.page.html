@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button (click)="goHome()"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Weather <ion-icon name="cloud-outline"></ion-icon></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div *ngIf="!Load" id="spinner-cont">
+    <ion-spinner id="spinner" name="lines"></ion-spinner>
+  </div>
+
+  <div class="error" *ngIf="error">
+    <h1 id="message">An error Occurred!</h1>
+    <p class="center">{{error}}</p>
+  </div>
+
+  <ion-card *ngFor="let item of listWeather">
+    <ion-card-content>
+      <div id="container">
+        <div id="titolo1">
+          <h1 style="font-size: medium">{{item.created | date:'hh:mm a'}}</h1>
+          <h1 class="end1">
+            <b id="big">{{item.max_temp.toFixed()}}°</b>
+            <b id="small"> / {{item.min_temp.toFixed()}}° </b>
+          </h1>
+        </div>
+        <div id="immagine">
+          <img
+            src="https://www.metaweather.com/static/img/weather/png/64/{{item.weather_state_abbr}}.png"
+          />
+        </div>
+        <div id="titolo4">
+          <h1 style="font-size: medium; text-align: end">
+            <b>{{item.applicable_date | date}}</b>
+          </h1>
+          <h1 class="end2" style="font-size: medium">
+            {{item.weather_state_name}}
+          </h1>
+        </div>
+        <hr />
+      </div>
+      <div id="city">
+        <h2>
+          <b>{{name}}</b>
+        </h2>
+      </div>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
