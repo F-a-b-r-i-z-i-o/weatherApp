@@ -26,6 +26,7 @@ In this project a weather app with different sections is developed.
 represents the home with the various cities of which it is possible to see the forecasts.
 
 
+
 **The second:**
 
 in that a map is displayed.
