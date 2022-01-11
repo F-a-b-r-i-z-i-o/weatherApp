@@ -82,7 +82,6 @@ export class Tab2Page implements OnInit {
   //write map on the div with navigator
   buildMap() {
     this.isMapReady = false;
-    console.log('kkkkkkk');
     console.log(this.tab2Service.lat);
     console.log(this.tab2Service.lng);
     (Mapboxgl as any).accessToken = environment.mapboxKey;
@@ -137,7 +136,6 @@ export class Tab2Page implements OnInit {
       .setLngLat([this.tab2Service.lng, this.tab2Service.lat])
       .setPopup(popup)
       .addTo(this.Mappa);
-    console.log('MERDAAAAAAAAAAAAAAAAAAAAAAAAAAAAA');
     console.log(this.tab2Service.lng);
     console.log(this.tab2Service.lat);
   }
@@ -158,15 +156,9 @@ export class Tab2Page implements OnInit {
   }
 
   ngOnInit() {
-    console.log('OKOKK');
     this.tab2Service.checkPermission();
     //call function after 2 second
     setTimeout(() => this.buildMap(), 2000);
   }
 }
 
-//create service tab2, tab3
-//tab3 spostare chiamata api, spostare complessita' chiamata service
-//tab2 gestione permessi
-//controllare device cordova, senno' return lat lon fake.
-//return position by native
