@@ -25,6 +25,7 @@ In this project a weather app with different sections is developed.
 
 represents the home with the various cities of which it is possible to see the forecasts.
 
+
 **The second:**
 
 in that a map is displayed.
@@ -34,6 +35,27 @@ in that a map is displayed.
 instead allows you to view some users who use the app.
 
 
-To run project types:
+To run project on web types:
 
 `npm start ` 
+
+
+If you want to "run" the project natively (using a physical device)
+First you need to add the platforms (android / ios)
+
+`ionc cordova platform add (android/ios)` 
+
+Only after
+
+`ionc cordova run android` 
+
+To run the app in debug mode with the web
+
+`npm run run:live android`
+
+Else if you want run the app with node
+
+`npm run run:run android`
+
+
+
