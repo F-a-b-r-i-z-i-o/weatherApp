@@ -43,6 +43,7 @@ In that a map is displayed. In the map you can see my position with the relative
 
 In the third tab you can first see the users who have downloaded the app, after clicking them you can see their information in detail.
 
+![user](https://user-images.githubusercontent.com/44865237/149036502-b573cdd6-4922-4eaf-b065-747374f928dc.png)
 
 To run project on web types:
 
