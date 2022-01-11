@@ -34,7 +34,10 @@ After clicking on one of the visible cities, you can see the relative weather.
 
 **The second 	:parking:** 
 
-In that a map is displayed. In the map you can see my position with the relative marker in addition it is possible to return to the time page by clicking on one of the relative markers positioned on the map to see the weather of the selected city
+In that a map is displayed. In the map you can see my position with the relative marker in addition it is possible to return to the time page by clicking on one of the relative markers positioned on the map to see the weather of the selected city. Before accessing the map, authorization must be requested to access one's position and enable the GPS. After doing this the map will load correctly.
+
+![pos](https://user-images.githubusercontent.com/44865237/149038585-8de0b017-005d-47fc-8859-5a2b51472d6d.png)
+
 
 ![mapMY](https://user-images.githubusercontent.com/44865237/149036082-5fdf126d-863a-4aaf-a550-25c0167c95d5.png)
 
