@@ -23,24 +23,25 @@ In this project a weather app with different sections is developed.
 
 **The first:**
 
-represents the home with the various cities of which it is possible to see the forecasts.
+represents the home with the various cities of which it is possible to see the forecasts. 
+After clicking on one of the visible cities, you can see the relative weather.
 
 ![home](https://user-images.githubusercontent.com/44865237/149035200-c3b612c8-bf77-4118-9a10-b90aea29d02a.png)
 -
 
-After clicking on one of the visible cities, you can see the relative weather.
 
 ![tempo](https://user-images.githubusercontent.com/44865237/149035956-c20fb2fa-7223-4373-a436-e393433222fc.png)
 
 **The second:**
 
-in that a map is displayed.
+In that a map is displayed. In the map you can see my position with the relative marker in addition it is possible to return to the time page by clicking on one of the relative markers positioned on the map to see the weather of the selected city
 
+![mapMY](https://user-images.githubusercontent.com/44865237/149036082-5fdf126d-863a-4aaf-a550-25c0167c95d5.png)
 
 
 **The third:**
 
-instead allows you to view some users who use the app.
+In the third tab you can first see the users who have downloaded the app, after clicking them you can see their information in detail.
 
 
 To run project on web types:
