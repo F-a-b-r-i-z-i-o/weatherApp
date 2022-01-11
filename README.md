@@ -47,11 +47,12 @@ In the third tab you can first see the users who have downloaded the app, after 
 
 ![user-detail](https://user-images.githubusercontent.com/44865237/149036570-f8c16f7c-387a-42b3-99b5-a4b903c4be72.png)
 
+![user-detail2](https://user-images.githubusercontent.com/44865237/149036643-85a4625d-11b0-4b17-a37b-3745b4c23582.png)
+
 
 To run project on web types:
 
-`npm start ` 
-
+`npm start` 
 
 If you want to "run" the project natively (using a physical device)
 First you need to add the platforms (android / ios)
