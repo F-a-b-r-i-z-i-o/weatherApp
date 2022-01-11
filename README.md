@@ -25,7 +25,10 @@ In this project a weather app with different sections is developed.
 
 represents the home with the various cities of which it is possible to see the forecasts.
 
+![home](https://user-images.githubusercontent.com/44865237/149035200-c3b612c8-bf77-4118-9a10-b90aea29d02a.png)
+-
 
+After clicking on one of the visible cities, you can see the relative weather.
 
 **The second:**
 
