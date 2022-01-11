@@ -51,7 +51,7 @@ In the third tab you can first see the users who have downloaded the app, after 
 
 If the loading of any page is slow or some query fails, error / laoding screens will be displayed.
 
-
+![Screenshot 2021-12-13 101033](https://user-images.githubusercontent.com/44865237/149038354-95c09ad8-2afe-476e-bd6b-e35a1e2bf9a4.jpg)
 
 To run project on web types:
 
