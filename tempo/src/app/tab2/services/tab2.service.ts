@@ -8,9 +8,11 @@ import { AndroidPermissions } from '@awesome-cordova-plugins/android-permissions
   providedIn: 'root',
 })
 export class Tab2Service {
+  //set the lat lng value
   lat;
   lng;
 
+  //recall constructor for the native component
   constructor(
     private platform: Platform,
     private locationAccuracy: LocationAccuracy,
@@ -18,6 +20,7 @@ export class Tab2Service {
     private androidPermissions: AndroidPermissions
   ) {}
 
+  //promise that return my location if platform is cordova (Android device)
   getCurrentLocation() {
     return new Promise((resolve, rejects) => {
       if (this.platform.is('cordova')) {
@@ -33,6 +36,7 @@ export class Tab2Service {
     });
   }
 
+  //check the permission to shwo your position
   checkPermission() {
     this.androidPermissions
       .checkPermission(
@@ -49,7 +53,7 @@ export class Tab2Service {
         }
       );
   }
-
+  //function to enable GPS native component
   enableGPS() {
     this.locationAccuracy
       .request(this.locationAccuracy.REQUEST_PRIORITY_HIGH_ACCURACY)
