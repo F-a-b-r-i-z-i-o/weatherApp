@@ -30,9 +30,13 @@ represents the home with the various cities of which it is possible to see the f
 
 After clicking on one of the visible cities, you can see the relative weather.
 
+![tempo](https://user-images.githubusercontent.com/44865237/149035956-c20fb2fa-7223-4373-a436-e393433222fc.png)
+
 **The second:**
 
 in that a map is displayed.
+
+
 
 **The third:**
 
