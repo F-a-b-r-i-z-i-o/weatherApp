@@ -78,4 +78,6 @@ Else if you want run the app with node
 `npm run run:run android`
 
 
+Enjoy. 2F.
+
 
