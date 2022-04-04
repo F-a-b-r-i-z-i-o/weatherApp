@@ -1,8 +1,12 @@
 # WeatherApp :cloud_with_snow:
+
+### **The source code is visible in the second branch**
+<br>
+
 This project is developed using **angular 12** and **ionic 5.9.2**.
+
 To develop the project it is necessary to install nodejs, the installation of node is different in each operating system (see installation documentation).
 After doing this you need to install angular.
-
 
 `npm install -g @angular/cli`
 
