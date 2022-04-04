@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title
+      >City
+      <ion-icon name="business-outline"></ion-icon>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-list class="list">
+    <ion-item
+      class="list"
+      button
+      (click)="getCity(city.id, city.name)"
+      *ngFor="let city of cityList"
+    >
+      <ion-label> {{city.name}} </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

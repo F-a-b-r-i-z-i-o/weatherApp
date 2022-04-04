@@ -1,0 +1,169 @@
+ion-header {
+    --background: #f5fffa;
+    ion-toolbar {
+      --background: #f5fffa;
+      ion-title {
+        font-size: large;
+        text-align: center;
+      }
+    }
+    ion-buttons {
+      --background: #f5fffa;
+      ion-back-button {
+        color: black;
+      }
+    }
+  }
+  
+  ion-content {
+    --background: #f5fffa;
+    ion-card {
+      --background: #e4f0fc;
+      color: black;
+      ion-card-content {
+        padding: 20px;
+        --background: #e4f0fc;
+      }
+    }
+  }
+  
+  .tempo {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+  }
+  #tempoI {
+    height: 80px;
+    width: 80px;
+    align-self: center;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #city {
+    width: 100%;
+    align-self: baseline;
+  }
+  hr {
+    border-style: inset;
+    border-width: 2px;
+  }
+  
+  #small {
+    font-size: 15px;
+    text-align: start;
+  }
+  #big {
+    font-size: 20px;
+    text-align: start;
+  }
+  
+  #spinner-cont {
+    height: 100%;
+    width: 100%;
+    background-color: #f5fffa;
+  }
+  #spinner {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -20px;
+    color: black;
+  }
+  
+  .error {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: lightsalmon;
+    position: absolute;
+    color: red;
+    border: 2px solid red;
+  }
+  .center {
+    text-align: center;
+  }
+  
+  #message {
+    text-align: center;
+    margin-top: 50%;
+  }
+  h2 {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .left {
+    border: 2px solid;
+    height: 30px;
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+    height: 30px;
+  }
+  
+  .tleft {
+    text-align: left;
+    width: 102px;
+    height: 0px;
+  }
+  .tright {
+    height: 0px;
+    text-align: end;
+  }
+  
+  #container {
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  #immagine {
+    align-self: center;
+    height: 80px;
+    width: 80px;
+  }
+  #titolo1 {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-bottom: 28px;
+    height: 132px;
+    width: 101px;
+  }
+  
+  #titolo4 {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-bottom: 28px;
+    height: 132px;
+    width: 122px;
+  }
+  .end1 {
+    margin-top: 107px;
+    align-self: start;
+  }
+  .end2 {
+    text-align: end;
+    width: 100%;
+    align-self: start;
+    margin-top: 114px;
+  }
+  hr {
+    align-self: baseline;
+    border: 2px solid gray;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    margin: 0;
+  }
