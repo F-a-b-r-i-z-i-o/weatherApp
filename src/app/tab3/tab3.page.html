@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      USERS
+      <ion-icon name="people-outline"></ion-icon>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content style="background-color: #f5fffa">
+  <div *ngIf="!Load" id="spinner-cont">
+    <ion-spinner id="spinner" name="lines"></ion-spinner>
+  </div>
+
+  <ion-list>
+    <ion-item
+      button
+      (click)="buttonClick(item)"
+      *ngFor="let item of usersList;"
+    >
+      <ion-avatar slot="start">
+        <img [src]="item.avatar" />
+      </ion-avatar>
+      <ion-label>
+        <h2>{{item.name}}</h2>
+        <h3>{{item.email}}</h3>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <div class="error" *ngIf="error">
+    <h1 id="message">An error Occurred!</h1>
+    <p class="center">{{error}}</p>
+  </div>
+</ion-content>

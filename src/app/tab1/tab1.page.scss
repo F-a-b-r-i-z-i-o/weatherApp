@@ -1,0 +1,25 @@
+::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  ion-header {
+    ion-toolbar {
+      --background: #f5fffa;
+      ion-title {
+        font-size: x-large;
+        text-align: center;
+      }
+    }
+  }
+  
+  ion-content {
+    --ion-background-color: #f5fffa;
+    ion-list {
+      --ion-background-color: #f5fffa;
+    }
+    ion-item {
+      --background: #f5fffa;
+      font-size: 1rem;
+      padding: 32px;
+    }
+  }
